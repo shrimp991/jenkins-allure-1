@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: Mesto1Test
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 1, Skipped: 0, Time elapsed: 3.555 s <<< FAILURE! - in Mesto1Test
+likeTheFirstPhoto(Mesto1Test)  Time elapsed: 3.143 s  <<< ERROR!
+java.lang.IllegalArgumentException: Unnamed path parameter cannot be null (path parameter at index 0 is null)
+	at Mesto1Test.likePhotoById(Mesto1Test.java:56)
+	at Mesto1Test.likeTheFirstPhoto(Mesto1Test.java:38)
+
+addNewPhoto(Mesto1Test)  Time elapsed: 0.279 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <201> but was <401>.
+
+	at Mesto1Test.addNewPhoto(Mesto1Test.java:29)
+
